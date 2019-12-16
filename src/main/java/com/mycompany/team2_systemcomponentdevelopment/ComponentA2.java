@@ -7,6 +7,7 @@ public class ComponentA2 {
 
         static int UserInput;
 
+        // method to be call through composition
         public void A() {
             System.out.print("Enter the number: ");
             Scanner s = new Scanner(System.in);

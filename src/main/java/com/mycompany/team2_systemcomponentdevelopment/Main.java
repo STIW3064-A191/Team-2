@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //create object from each component
         ComponentA2 A2 = new ComponentA2();
         ComponentB2 B2 = new ComponentB2();
         ComponentC2 C2 = new ComponentC2();
@@ -29,15 +30,15 @@ public class Main {
             switch (choice) {
                 
                 case 1:
-                    A2.A();
+                    A2.A();//call function component A2
                     break;
 
                 case 2:
-                    B2.B();
+                    B2.B();//call function component B2
                     break;
 
                 case 3:
-                    C2.C();
+                    C2.C();//call function component C2
                     break;
 
                 case 4:

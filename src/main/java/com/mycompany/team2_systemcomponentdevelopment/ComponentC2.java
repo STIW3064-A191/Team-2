@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ComponentC2 {
 
+   // method to be call through composition
     public void C() {
         Scanner inp = new Scanner(System.in);
         System.out.print("Input: ");
